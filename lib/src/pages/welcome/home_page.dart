@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
               'assets/logomark.svg',
             ),
             Text(
-              'Welcome to nightingale UI Kit 🩺',
+              'Welcome to nightingale \n UI Kit 🩺',
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
@@ -34,11 +34,12 @@ class HomePage extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
             Text(
-              'Your AI Medical & E-Pharmacy Companion.',
+              'Your AI Medical & E-Pharmacy \n Companion.',
               style: TextStyle(
-                fontSize: 16,
+                fontSize: 20,
                 fontWeight: FontWeight.w500,
               ),
+              textAlign: TextAlign.center,
             ),
             ElevatedButton.icon(
               onPressed: () => context.pushRoute(OnboardingPageRoute()),
@@ -58,7 +59,7 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
-                  color: Colors.grey.shade800,
+                  color: Theme.of(context).colorScheme.onSurface,
                 ),
                 children: [
                   TextSpan(

@@ -1,0 +1,13 @@
+<svg width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_12065_8432)">
+<rect width="375" height="812" fill="#02040A"/>
+<circle opacity="0.64" cx="321.5" cy="321.5" r="321.5" transform="matrix(-1 0 0 1 215 -92)" stroke="#78350F" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<circle opacity="0.64" cx="543.5" cy="543.5" r="543.5" transform="matrix(-1 0 0 1 862 229)" stroke="#78350F" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<circle opacity="0.64" cx="293.5" cy="293.5" r="293.5" transform="matrix(-1 0 0 1 862 568)" stroke="#78350F" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_12065_8432">
+<rect width="375" height="812" fill="white"/>
+</clipPath>
+</defs>
+</svg>

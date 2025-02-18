@@ -39,11 +39,11 @@ class HomePageRoute extends _i6.PageRouteInfo<void> {
 
 /// generated route for
 /// [_i2.LoadingInteractive]
-class LoadingInteractive extends _i6.PageRouteInfo<void> {
-  const LoadingInteractive({List<_i6.PageRouteInfo>? children})
-    : super(LoadingInteractive.name, initialChildren: children);
+class LoadingInteractiveRoute extends _i6.PageRouteInfo<void> {
+  const LoadingInteractiveRoute({List<_i6.PageRouteInfo>? children})
+    : super(LoadingInteractiveRoute.name, initialChildren: children);
 
-  static const String name = 'LoadingInteractive';
+  static const String name = 'LoadingInteractiveRoute';
 
   static _i6.PageInfo page = _i6.PageInfo(
     name,

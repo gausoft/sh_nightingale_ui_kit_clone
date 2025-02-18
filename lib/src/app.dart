@@ -45,6 +45,32 @@ class _NightingaleAppState extends State<NightingaleApp> {
           ),
         ),
       ),
+      darkTheme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Color(0xFF14B8A6),
+          brightness: Brightness.dark,
+          onSurface: Colors.white.withValues(alpha: .5),
+          secondary: Color(0xFF4B5363),
+        ),
+        useMaterial3: true,
+        textTheme: GoogleFonts.manropeTextTheme(
+            ThemeData(brightness: Brightness.dark).textTheme),
+        scaffoldBackgroundColor: Colors.black,
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            elevation: 0,
+            backgroundColor: Color(0xFF14B8A6), // Recovery Teal/50
+            foregroundColor: Colors.white,
+            shadowColor: Colors.transparent,
+            iconColor: Colors.white,
+            padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(16),
+            ),
+          ),
+        ),
+      ),
+      themeMode: ThemeMode.system,
     );
   }
 }

@@ -14,7 +14,7 @@ class AppRouter extends RootStackRouter {
           initial: true,
         ),
         AutoRoute(
-          page: LoadingInteractive.page,
+          page: LoadingInteractiveRoute.page,
         ),
         AutoRoute(
           page: LoadingQuoteRoute.page,

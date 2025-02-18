@@ -6,7 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import '../../router/router.gr.dart';
 
-@RoutePage()
+@RoutePage(name: 'LoadingInteractiveRoute')
 class LoadingInteractive extends StatefulWidget {
   const LoadingInteractive({super.key});
 
