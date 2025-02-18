@@ -69,7 +69,7 @@ class _LoadingInteractiveState extends State<LoadingInteractive>
                     builder: (context, child) {
                       return LinearProgressIndicator(
                         value: _animation.value,
-                        backgroundColor: Colors.white.withOpacity(0.32),
+                        backgroundColor: Colors.white.withValues(alpha: 0.32),
                         valueColor: AlwaysStoppedAnimation<Color>(
                           Colors.white,
                         ),
